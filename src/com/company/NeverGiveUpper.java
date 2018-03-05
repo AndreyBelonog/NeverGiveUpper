@@ -23,12 +23,12 @@ public class NeverGiveUpper {
 
 
     private void createGui(){
-        JFrame frame = new JFrame("NeverGiveUpper");
+        JFrame frame = new JFrame("NeverGiveUpper 1.0");
         JPanel mainPanel = new JPanel();
         JButton thankYouButton = new JButton("Thanks!");
 
         adviceArea = new JTextArea(3, 10);
-        adviceArea.setBackground(Color.PINK);
+        adviceArea.setBackground(Color.BLUE);
         adviceArea.setLineWrap(true);
         adviceArea.setWrapStyleWord(true);
         adviceArea.setFont(new Font(Font.SERIF, Font.BOLD, 17));
