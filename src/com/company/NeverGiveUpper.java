@@ -28,7 +28,7 @@ public class NeverGiveUpper {
         JButton thankYouButton = new JButton("Thanks!");
 
         adviceArea = new JTextArea(3, 10);
-        adviceArea.setBackground(Color.BLUE);
+        adviceArea.setBackground(Color.PINK);
         adviceArea.setLineWrap(true);
         adviceArea.setWrapStyleWord(true);
         adviceArea.setFont(new Font(Font.SERIF, Font.BOLD, 17));
